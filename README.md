@@ -14,13 +14,13 @@ Gain the ability to analyze and monitor telemetry data by deploying the TIG stac
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/huntabyte/tig-stack.git
 ```
 
 Navigate to the project directory
 
 ```bash
-  cd my-project
+  cd tig-stack
 ```
 
 Change the environment variables define in `.env` that are used to setup and deploy the stack
