@@ -10,7 +10,7 @@ services:
     entrypoint: ["./entrypoint.sh"]
     restart: on-failure:10
     ports:
-      - ${DOCKER_INFLUXDB_INIT_PORT}:${DOCKER_INFLUXDB_INIT_PORT}
+      - ${DOCKER_INFLUXDB_INIT_PORT}:8086
 
   telegraf:
     image: telegraf:1.19
